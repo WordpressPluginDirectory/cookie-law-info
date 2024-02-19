@@ -1,11 +1,12 @@
 <?php
+
 /**
  * Class Controller file.
  *
  * @package CookieYes
  */
 
-namespace CookieYes\Lite\Admin\Modules\Consentlogs\Includes;
+namespace CookieYes\Lite\Admin\Modules\Pageviews\Includes;
 
 use CookieYes\Lite\Integrations\Cookieyes\Includes\Cloud;
 use CookieYes\Lite\Includes\Cache;
@@ -23,6 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 class Controller extends Cloud {
 
+
 	/**
 	 * Instance of the current class
 	 *
@@ -34,7 +36,7 @@ class Controller extends Cloud {
 	 *
 	 * @var array
 	 */
-	protected $cache_group = 'consent_logs';
+	protected $cache_group = 'pageviews';
 
 	/**
 	 * Consent log limit
@@ -59,45 +61,32 @@ class Controller extends Cloud {
 	 *
 	 * @return array
 	 */
-	public function get_statistics() {
-		$logs = array();
-		$this->set_api_url( CKY_APP_URL . '/api/v3/' );
+	public function get_pageviews() {
+		$pageviews = array();
 		$this->make_auth_request();
-		$data = array( 'granularity' => '7d' );
+		$data          = array( 'granularity' => '7d' );
 		$response      = $this->get(
-			'websites/' . $this->get_website_id() . '/consent-logs/chart-data',
+			'websites/' . $this->get_website_id() . '/pageviews/chart',
 			$data
 		);
 		$response_code = wp_remote_retrieve_response_code( $response );
 		if ( 200 === $response_code ) {
 			$response = json_decode( wp_remote_retrieve_body( $response ), true );
-			$items    = isset( $response['consent'] ) ? $response['consent'] : array();
+			$items    = isset( $response['data'] ) ? $response['data'] : array();
 			if ( empty( $items ) ) {
-				return $logs;
+				return $pageviews;
 			}
 			$total = 0;
 			foreach ( $items as $item ) {
-				$type = 'partial';
-				if ( isset( $item['name'] ) ) {
-					if ( 'Accepted' === $item['name'] ) {
-						$type = 'accepted';
-					} elseif ( 'Rejected' === $item['name'] ) {
-						$type = 'rejected';
-					}
-				}
-				$count  = isset( $item['count'] ) ? absint( $item['count'] ) : 0;
-				$total  = $total + $count;
-				$logs[] = array(
-					'type'  => $type,
-					'count' => $count,
+				$date        = isset( $item['date'] ) ? $item['date'] : '';
+				$views       = isset( $item['views'] ) ? absint( $item['views'] ) : 0;
+				$pageviews[] = array(
+					'date'  => $date,
+					'views' => $views,
 				);
 			}
-			if ( $total <= 0 ) {
-				return array();
-			}
 		}
-		Cache::set( 'statistics', $this->cache_group, $logs );
-		return $logs;
+		Cache::set( 'pageviews', $this->cache_group, $pageviews );
+		return $pageviews;
 	}
-
 }
