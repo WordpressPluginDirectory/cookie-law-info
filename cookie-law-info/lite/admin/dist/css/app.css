@@ -676,6 +676,20 @@
 .cky-app-wrap .cky-section .cky-section-title {
   margin-right: 15px;
 }
+.cky-app-wrap .cky-session-expired {
+  margin: 30px 80px 0;
+  padding: 48px 65px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-height: 610px;
+  gap: 26px;
+}
 .cky-app-wrap .cky-stats-section {
   flex-wrap: wrap;
 }
@@ -2954,6 +2968,18 @@ fieldset[disabled] .cky-app-wrap .cky-select {
   align-items: center;
   justify-content: center;
 }
+
+.cky-extra-pageviews-text[data-v-032d0ffd] {
+    font-size: 12px;
+    font-style: italic;
+    margin-left: -20px;
+}
+.cky-overage-note[data-v-032d0ffd] {
+    margin-top: 12px;
+    margin-left: 86px;
+    margin-right: 120px;
+}
+
 .cky-spinner {
   display: inline-flex;
 }
