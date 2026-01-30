@@ -169,7 +169,6 @@ class Admin {
 			'pageviews',
 			'dashboard_widget',
 			'connect_banner',
-			'bfcm_banner',
 		);
 		return $modules;
 	}

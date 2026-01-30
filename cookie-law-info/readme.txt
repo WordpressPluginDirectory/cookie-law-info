@@ -5,7 +5,7 @@ Tags: cookie notice, cookie consent, cookie banner, cookie, gdpr
 Requires at least: 5.0.0
 Tested up to: 6.9
 Requires PHP: 5.6
-Stable tag: 3.3.9
+Stable tag: 3.4.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -256,6 +256,15 @@ Every time we update the plugin, you will see a notification on the installed pl
 
 == Changelog ==
 
+= 3.4.0 =
+
+[Add] - Trial model experimentation
+[Tweak] - Color customization is now a paid feature. Existing custom colors will continue to work.
+
+= 3.3.9.1 =
+
+[Fix] - BF & CM banner not removed after deadline.
+
 = 3.3.9 =
 
 [Fix] - Updated scanner API in legacy plugin.
@@ -292,11 +301,7 @@ For the changelog of earlier versions, please refer to the [changelog.txt](https
 
 == Upgrade Notice ==
 
-= 3.3.9 =
+= 3.4.0 =
 
-[Fix] - Updated scanner API in legacy plugin.
-[Tweak] – Added a clarification in the migration flow for the new UI that the accept button cannot be disabled post-migration.
-[Add] - Redirect to plugin dashboard on Activate.
-[Add] - Handled auth token expiry case in Web App connection.
-[Enhancement] - Extra pageviews reporting in Pageviews graph.
-[Tweak] - IAB TCF v2.3 related updates in UI.
+[Add] - Trial model experimentation
+[Tweak] - Color customization is now a paid feature. Existing custom colors will continue to work.
