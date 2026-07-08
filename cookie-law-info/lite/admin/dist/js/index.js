@@ -995,16 +995,6 @@ var __async = (__this, __arguments, generator) => {
   const partnerAgencySvg = "data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M13.7869%2015.7256H13.9999C13.9999%2015.7256%2017.4529%2015.7326%2017.4999%2015.7256L19.6799%2015.3256C19.9101%2015.2834%2020.1183%2015.1619%2020.2681%2014.9821C20.418%2014.8023%2020.5%2014.5756%2020.4999%2014.3416V8.90757C20.4999%208.70654%2020.4393%208.51018%2020.326%208.3441C20.2128%208.17802%2020.0521%208.04994%2019.8649%207.97657L14.8199%205.99957C14.5712%205.90229%2014.3011%205.87316%2014.0374%205.91517C13.7737%205.95719%2013.526%206.06883%2013.3199%206.23857L9.6549%209.25357C9.51588%209.36738%209.4211%209.52629%209.38702%209.70269C9.35293%209.8791%209.38168%2010.0619%209.46829%2010.2193C9.5549%2010.3767%209.69389%2010.4988%209.86115%2010.5645C10.0284%2010.6301%2010.2134%2010.6351%2010.3839%2010.5786L14.4999%209.22557'%20stroke='%231578F7'%20stroke-linecap='round'%20stroke-linejoin='round'%20/%3e%3cpath%20d='M3.5%2013.7264L6.1%2014.2264L9.685%2017.8114C9.79816%2017.9247%209.93688%2018.0092%2010.0895%2018.0577C10.2421%2018.1063%2010.4042%2018.1175%2010.562%2018.0904L11.062%2018.0034C11.2657%2017.9683%2011.4535%2017.8711%2011.5996%2017.7249C11.7457%2017.5788%2011.843%2017.391%2011.878%2017.1874L12.052%2016.1744L13.761%2015.8794L14.056%2014.1714L15.765%2013.8764L16.059%2012.1674L13.459%209.56737M11.57%207.67837L10.091%206.20037C9.95118%206.06007%209.77285%205.96445%209.57862%205.92564C9.38438%205.88682%209.183%205.90657%209%205.98237L6%207.22637L3.5%207.72637M0.5%206.22637H2.5C2.76522%206.22637%203.01957%206.33172%203.20711%206.51926C3.39464%206.7068%203.5%206.96115%203.5%207.22637V14.2264C3.5%2014.4916%203.39464%2014.7459%203.20711%2014.9335C3.01957%2015.121%202.76522%2015.2264%202.5%2015.2264H0.5V6.22637ZM21.5%207.22637H23.5V16.2264H21.5C21.2348%2016.2264%2020.9804%2016.121%2020.7929%2015.9335C20.6054%2015.7459%2020.5%2015.4916%2020.5%2015.2264V8.22637C20.5%207.96115%2020.6054%207.7068%2020.7929%207.51926C20.9804%207.33172%2021.2348%207.22637%2021.5%207.22637Z'%20stroke='%231578F7'%20stroke-linecap='round'%20stroke-linejoin='round'%20/%3e%3c/svg%3e";
   const partnerAffiliateSvg = "" + new URL("../assets/partner-affiliate.svg", document.currentScript && document.currentScript.tagName.toUpperCase() === "SCRIPT" && document.currentScript.src || document.baseURI).href;
   const rocketSvg = "data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_900_87)'%3e%3cpath%20d='M10.5202%2020.8299L15.139%2023.4966L21.9161%2017.2542C22.8685%2016.3774%2023.5938%2015.2825%2024.0299%2014.0637C24.466%2012.8448%2024.5997%2011.5384%2024.4198%2010.2565L23.6391%204.70196C23.6222%204.58153%2023.5781%204.46653%2023.5102%204.3657C23.4422%204.26487%2023.3521%204.18086%2023.2468%204.12006C23.1415%204.05926%2023.0237%204.02327%2022.9024%204.01482C22.7811%204.00637%2022.6595%204.02568%2022.5467%204.07129L17.3461%206.17246C16.1459%206.65755%2015.0813%207.42664%2014.2438%208.41371C13.4063%209.40078%2012.8208%2010.5764%2012.5377%2011.8395L10.5202%2020.8299ZM10.5202%2020.8299L5.72274%2021.1393C5.72274%2021.1393%206.08%2015.1872%2011.7881%2014.6338M8.52017%2024.294C7.18684%2026.6034%208.82957%2029.0914%208.82957%2029.0914C8.82957%2029.0914%2011.8056%2029.2701%2013.139%2026.9607M20.3687%2019.5878C22.7435%2024.8078%2017.7674%2028.0933%2017.7674%2028.0933L15.6366%2023.7839'%20stroke='%23136FE8'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M16.8297%2015.235C16.2173%2014.8814%2015.7703%2014.299%2015.5873%2013.6158C15.4042%2012.9327%2015.5001%2012.2048%2015.8537%2011.5923C16.2073%2010.9798%2016.7898%2010.5329%2017.4729%2010.3498C18.156%2010.1668%2018.8839%2010.2626%2019.4964%2010.6162C20.1089%2010.9699%2020.5558%2011.5523%2020.7389%2012.2354C20.9219%2012.9186%2020.8261%2013.6465%2020.4725%2014.259C20.1189%2014.8715%2019.5364%2015.3184%2018.8533%2015.5014C18.1701%2015.6845%2017.4422%2015.5887%2016.8297%2015.235Z'%20stroke='%23136FE8'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_900_87'%3e%3crect%20width='32'%20height='32'%20fill='white'%20transform='translate(0%200.5)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e";
-  const gdprAnniversaryLogoSvg = "" + new URL("../assets/gdpr-anniversary-logo.svg", document.currentScript && document.currentScript.tagName.toUpperCase() === "SCRIPT" && document.currentScript.src || document.baseURI).href;
-  const gdprAnniversaryCloseSvg = "data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2018.7547%2018.7547'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='tabler:x'%3e%3cpath%20id='Vector'%20d='M14.066%204.68868L4.68868%2014.066M4.68868%204.68868L14.066%2014.066'%20stroke='var(--stroke-0,%20white)'%20stroke-width='1.25'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e";
-  const gdprAnniversaryBgOverlaySvg = "" + new URL("../assets/gdpr-anniversary-bg-overlay.svg", document.currentScript && document.currentScript.tagName.toUpperCase() === "SCRIPT" && document.currentScript.src || document.baseURI).href;
-  const gdprAnniversarySparkLgSvg = "data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2010.9425%2013.8365'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='g3550'%3e%3cpath%20id='path3552'%20d='M5.47125%200.5C2.52872%201.44582%200.5%204.49813%200.5%207.94097V11.7119L5.47125%2013.3365L10.4425%2011.7119V7.94097C10.4425%204.49813%208.4138%201.44582%205.47125%200.5Z'%20stroke='var(--stroke-0,%20white)'%20stroke-miterlimit='10'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e";
-  const gdprAnniversarySparkSmSvg = "data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%205.40741%204.09896'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='g3558'%3e%3cpath%20id='path3560'%20d='M0.500001%202.04948L1.96914%200.5L4.90741%203.59896'%20stroke='var(--stroke-0,%20%2357BD8D)'%20stroke-miterlimit='10'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e";
-  const gdprAnniversaryDotASvg = "data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2010.7199%209.41146'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='Group'%20opacity='0.2'%3e%3cpath%20id='Vector'%20d='M0.5%208.07031C0.5%208.29311%200.578568%208.5068%200.718463%208.6645C0.858358%208.8222%201.04815%208.91101%201.24619%208.91146H9.47372C9.67176%208.91101%209.86155%208.8222%2010.0014%208.6645C10.1413%208.5068%2010.2199%208.29311%2010.2199%208.07031V6.35942C9.89708%206.26094%209.61204%206.04563%209.40882%205.74675C9.20559%205.44787%209.09548%205.08203%209.09548%204.70573C9.09548%204.32943%209.20559%203.96359%209.40882%203.66471C9.61204%203.36583%209.89708%203.15052%2010.2199%203.05204V1.34115C10.2199%201.11835%2010.1413%200.904658%2010.0014%200.746961C9.86155%200.589264%209.67176%200.500447%209.47372%200.500001H1.24619C1.04815%200.500447%200.858358%200.589264%200.718463%200.746961C0.578568%200.904658%200.5%201.11835%200.5%201.34115V3.04867C0.825407%203.14496%201.11331%203.35976%201.31876%203.65954C1.52421%203.95932%201.63563%204.3272%201.63563%204.70573C1.63563%205.08426%201.52421%205.45214%201.31876%205.75192C1.11331%206.0517%200.825407%206.2665%200.5%206.36279V8.07031Z'%20stroke='var(--stroke-0,%20white)'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20id='Vector_2'%20d='M3.50694%206.80727L7.24537%202.60154'%20stroke='var(--stroke-0,%20%2357BD8D)'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20id='Vector_3'%20d='M3.88079%203.44269C3.97993%203.44269%204.07502%203.39838%204.14513%203.31951C4.21524%203.24063%204.25463%203.13366%204.25463%203.02212C4.25463%202.91057%204.21524%202.8036%204.14513%202.72473C4.07502%202.64586%203.97993%202.60154%203.88079%202.60154C3.78164%202.60154%203.68655%202.64586%203.61644%202.72473C3.54633%202.8036%203.50694%202.91057%203.50694%203.02212C3.50694%203.13366%203.54633%203.24063%203.61644%203.31951C3.68655%203.39838%203.78164%203.44269%203.88079%203.44269ZM6.87153%206.80727C6.97068%206.80727%207.06576%206.76296%207.13587%206.68409C7.20598%206.60522%207.24537%206.49824%207.24537%206.3867C7.24537%206.27516%207.20598%206.16818%207.13587%206.08931C7.06576%206.01044%206.97068%205.96613%206.87153%205.96613C6.77238%205.96613%206.67729%206.01044%206.60718%206.08931C6.53707%206.16818%206.49768%206.27516%206.49768%206.3867C6.49768%206.49824%206.53707%206.60522%206.60718%206.68409C6.67729%206.76296%206.77238%206.80727%206.87153%206.80727Z'%20stroke='var(--stroke-0,%20%2357BD8D)'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e";
-  const gdprAnniversaryDotBSvg = "data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2011.2839%2015.8733'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='Group'%20opacity='0.2'%3e%3cpath%20id='Vector'%20d='M2.70139%207.11111V3.80556C2.70139%202.92887%203.01095%202.08809%203.56199%201.46817C4.11302%200.848263%204.86038%200.5%205.63966%200.5C6.41894%200.5%207.1663%200.848263%207.71733%201.46817C8.26836%202.08809%208.57793%202.92887%208.57793%203.80556V7.11111M4.90509%2011.2431C4.90509%2011.4622%204.98248%2011.6724%205.12024%2011.8274C5.258%2011.9824%205.44484%2012.0694%205.63966%2012.0694C5.83448%2012.0694%206.02132%2011.9824%206.15907%2011.8274C6.29683%2011.6724%206.37422%2011.4622%206.37422%2011.2431C6.37422%2011.0239%206.29683%2010.8137%206.15907%2010.6587C6.02132%2010.5037%205.83448%2010.4167%205.63966%2010.4167C5.44484%2010.4167%205.258%2010.5037%205.12024%2010.6587C4.98248%2010.8137%204.90509%2011.0239%204.90509%2011.2431Z'%20stroke='var(--stroke-0,%20%2357BD8D)'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20id='Vector_2'%20d='M0.5%208.76215C0.5%208.32381%200.654783%207.90342%200.9303%207.59346C1.20582%207.28351%201.5795%207.10937%201.96914%207.10938H9.31481C9.70445%207.10938%2010.0781%207.28351%2010.3536%207.59346C10.6292%207.90342%2010.7839%208.32381%2010.7839%208.76215V13.7205C10.7839%2014.1588%2010.6292%2014.5792%2010.3536%2014.8892C10.0781%2015.1991%209.70445%2015.3733%209.31481%2015.3733H1.96914C1.5795%2015.3733%201.20582%2015.1991%200.9303%2014.8892C0.654783%2014.5792%200.5%2014.1588%200.5%2013.7205V8.76215Z'%20stroke='var(--stroke-0,%20white)'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e";
-  const gdprAnniversaryDotCSvg = "data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2011.2839%2015.8733'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='Group'%20opacity='0.2'%3e%3cpath%20id='Vector'%20d='M2.70139%207.11111V3.80556C2.70139%202.92887%203.01095%202.08809%203.56199%201.46817C4.11302%200.848263%204.86038%200.5%205.63966%200.5C6.41894%200.5%207.1663%200.848263%207.71733%201.46817C8.26836%202.08809%208.57793%202.92887%208.57793%203.80556V7.11111M4.90509%2011.2431C4.90509%2011.4622%204.98248%2011.6724%205.12024%2011.8274C5.258%2011.9824%205.44484%2012.0694%205.63966%2012.0694C5.83448%2012.0694%206.02132%2011.9824%206.15907%2011.8274C6.29683%2011.6724%206.37422%2011.4622%206.37422%2011.2431C6.37422%2011.0239%206.29683%2010.8137%206.15907%2010.6587C6.02132%2010.5037%205.83448%2010.4167%205.63966%2010.4167C5.44484%2010.4167%205.258%2010.5037%205.12024%2010.6587C4.98248%2010.8137%204.90509%2011.0239%204.90509%2011.2431Z'%20stroke='var(--stroke-0,%20%2357BD8D)'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20id='Vector_2'%20d='M0.5%208.76215C0.5%208.32381%200.654783%207.90342%200.9303%207.59346C1.20582%207.28351%201.5795%207.10937%201.96914%207.10938H9.31481C9.70445%207.10938%2010.0781%207.28351%2010.3536%207.59346C10.6292%207.90342%2010.7839%208.32381%2010.7839%208.76215V13.7205C10.7839%2014.1588%2010.6292%2014.5792%2010.3536%2014.8892C10.0781%2015.1991%209.70445%2015.3733%209.31481%2015.3733H1.96914C1.5795%2015.3733%201.20582%2015.1991%200.9303%2014.8892C0.654783%2014.5792%200.5%2014.1588%200.5%2013.7205V8.76215Z'%20stroke='var(--stroke-0,%20white)'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e";
-  const gdprAnniversaryDotDSvg = "data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2010.3657%2013.3965'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='Group'%20opacity='0.2'%3e%3cpath%20id='Vector'%20d='M2.88661%2012.492L2.60068%2012.0644C2.35001%2011.6882%201.81671%2011.7185%201.60516%2012.1202C1.30766%2012.6854%200.5%2012.4604%200.5%2011.8127V1.58371C0.5%200.936023%201.30766%200.711039%201.60516%201.27567C1.81671%201.67791%202.35001%201.70828%202.60068%201.33207L2.88661%200.904414C3.24637%200.365195%203.99783%200.365195%204.35758%200.904414L4.40221%200.971971C4.784%201.54342%205.58119%201.54342%205.96353%200.971971L6.00816%200.904414C6.36791%200.365195%207.11937%200.365195%207.47913%200.904414L7.76506%201.33207C8.01573%201.70828%208.54903%201.67791%208.76058%201.27629C9.05808%200.711659%209.86574%200.936023%209.86574%201.58371V11.8127C9.86574%2012.4604%209.05808%2012.6854%208.76058%2012.1208C8.54903%2011.7185%208.01573%2011.6882%207.76506%2012.0644L7.47968%2012.492C7.11938%2013.0313%206.36791%2013.0313%206.00871%2012.492L5.96353%2012.4245C5.58174%2011.853%204.78455%2011.853%204.40221%2012.4245L4.35758%2012.492C3.99783%2013.0313%203.24637%2013.0313%202.88661%2012.492Z'%20stroke='var(--stroke-0,%20white)'%20stroke-linejoin='round'/%3e%3cpath%20id='Vector_2'%20d='M6.83334%204.83594L3.52779%208.55469'%20stroke='var(--stroke-0,%20%2357BD8D)'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20id='Vector_3'%20d='M6.83334%208.55469H6.82838M3.53274%204.83594H3.52779'%20stroke='var(--stroke-0,%20%2357BD8D)'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e";
-  const gdprAnniversaryDotESvg = "data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2010.3657%2013.3965'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='Group'%20opacity='0.2'%3e%3cpath%20id='Vector'%20d='M2.88661%2012.492L2.60068%2012.0644C2.35001%2011.6882%201.81671%2011.7185%201.60516%2012.1202C1.30766%2012.6854%200.5%2012.4604%200.5%2011.8127V1.58371C0.5%200.936023%201.30766%200.711039%201.60516%201.27567C1.81671%201.67791%202.35001%201.70828%202.60068%201.33207L2.88661%200.904414C3.24637%200.365195%203.99783%200.365195%204.35758%200.904414L4.40221%200.971971C4.784%201.54342%205.58119%201.54342%205.96353%200.971971L6.00816%200.904414C6.36791%200.365195%207.11937%200.365195%207.47913%200.904414L7.76506%201.33207C8.01573%201.70828%208.54903%201.67791%208.76058%201.27629C9.05808%200.711659%209.86574%200.936023%209.86574%201.58371V11.8127C9.86574%2012.4604%209.05808%2012.6854%208.76058%2012.1208C8.54903%2011.7185%208.01573%2011.6882%207.76506%2012.0644L7.47968%2012.492C7.11938%2013.0313%206.36791%2013.0313%206.00871%2012.492L5.96353%2012.4245C5.58174%2011.853%204.78455%2011.853%204.40221%2012.4245L4.35758%2012.492C3.99783%2013.0313%203.24637%2013.0313%202.88661%2012.492Z'%20stroke='var(--stroke-0,%20white)'%20stroke-linejoin='round'/%3e%3cpath%20id='Vector_2'%20d='M6.83333%204.83594L3.52777%208.55469'%20stroke='var(--stroke-0,%20%2357BD8D)'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20id='Vector_3'%20d='M6.83333%208.55469H6.82837M3.53273%204.83594H3.52777'%20stroke='var(--stroke-0,%20%2357BD8D)'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e";
   const assets = {
     popupLayout: popupLayoutSvg,
     layouts: {
@@ -1016,7 +1006,6 @@ var __async = (__this, __arguments, generator) => {
       sidebar: layoutSidebarSvg,
       pushdown: layoutPushdownSvg
     },
-    external: externalSvg,
     check: checkSvg,
     checkFill: checkFillSvg,
     lang: langSvg,
@@ -1052,17 +1041,7 @@ var __async = (__this, __arguments, generator) => {
     globalPrivacy: globalPrivacySvg,
     partnerAgency: partnerAgencySvg,
     partnerAffiliate: partnerAffiliateSvg,
-    rocket: rocketSvg,
-    gdprAnniversaryLogo: gdprAnniversaryLogoSvg,
-    gdprAnniversaryClose: gdprAnniversaryCloseSvg,
-    gdprAnniversaryBgOverlay: gdprAnniversaryBgOverlaySvg,
-    gdprAnniversarySparkLg: gdprAnniversarySparkLgSvg,
-    gdprAnniversarySparkSm: gdprAnniversarySparkSmSvg,
-    gdprAnniversaryDotA: gdprAnniversaryDotASvg,
-    gdprAnniversaryDotB: gdprAnniversaryDotBSvg,
-    gdprAnniversaryDotC: gdprAnniversaryDotCSvg,
-    gdprAnniversaryDotD: gdprAnniversaryDotDSvg,
-    gdprAnniversaryDotE: gdprAnniversaryDotESvg
+    rocket: rocketSvg
   };
   if (typeof document !== "undefined") {
     const root2 = document.documentElement;
@@ -65694,30 +65673,11 @@ ${colorConfig.map(([key, itemConfig]) => {
       hidden: true
     }
   ];
-  const CkyNavMenu = /* @__PURE__ */ __name(({ onNavigate, showGdprIndicator = false }) => {
+  const CkyNavMenu = /* @__PURE__ */ __name(({ onNavigate }) => {
     var _a2;
     const navigate = useNavigate();
     const pathname = useRouterState({ select: /* @__PURE__ */ __name((s2) => s2.location.pathname, "select") });
     const navContainerRef = reactExports.useRef(null);
-    const dashboardTriggerRef = reactExports.useRef(null);
-    const [dashboardIndicator, setDashboardIndicator] = reactExports.useState({ left: 0, width: 0 });
-    const updateIndicator = reactExports.useCallback(() => {
-      if (!navContainerRef.current || !dashboardTriggerRef.current) return;
-      const containerRect = navContainerRef.current.getBoundingClientRect();
-      const triggerRect = dashboardTriggerRef.current.getBoundingClientRect();
-      setDashboardIndicator({
-        left: triggerRect.left - containerRect.left,
-        width: triggerRect.width
-      });
-    }, []);
-    reactExports.useLayoutEffect(() => {
-      if (!showGdprIndicator) return;
-      updateIndicator();
-      const observer = new ResizeObserver(updateIndicator);
-      if (navContainerRef.current) observer.observe(navContainerRef.current);
-      if (dashboardTriggerRef.current) observer.observe(dashboardTriggerRef.current);
-      return () => observer.disconnect();
-    }, [showGdprIndicator, updateIndicator]);
     const [activeTab, setActiveTab] = reactExports.useState(
       () => navTabFromPathname(pathname)
     );
@@ -65775,31 +65735,21 @@ ${colorConfig.map(([key, itemConfig]) => {
         void navigate({ to: `/${next}`, replace: true });
       }
     }, [visibleTabValues, activeTab, navigate, disconnectSuccessOverlay]);
-    return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { ref: navContainerRef, className: "cky:px-8 cky:bg-white cky:relative", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "cky:grid cky:w-full cky:min-w-0 cky:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] cky:items-center", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:min-w-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Tabs, { value: resolvedTab, onValueChange: handleNavigate, children: /* @__PURE__ */ jsxRuntimeExports.jsx(TabsList, { className: "cky:bg-transparent cky:h-auto cky:p-0 cky:inline-flex cky:max-w-full cky:flex-nowrap cky:overflow-x-auto", children: visibleMenus.map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-          TabsTrigger,
-          {
-            value: item.to.name,
-            ref: item.to.name === "dashboard" ? dashboardTriggerRef : void 0,
-            className: "cky:data-[state=active]:bg-transparent cky:data-[state=active]:shadow-none cky:py-3.5 cky:px-0 cky:mx-2.5 cky:first:ml-0 cky:transition-all cky:duration-200 cky:cursor-pointer cky:border-0 cky:bg-transparent cky:data-[state=active]:text-blue-600 cky:data-[state=active]:text-[15px]! cky:data-[state=active]:font-semibold! cky:text-gray-700 cky:hover:text-[var(--cky-primary-dark)] cky:shrink-0",
-            children: item.text
-          },
-          item.to.name
-        )) }) }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:flex cky:min-w-0 cky:flex-row cky:items-center cky:justify-end cky:gap-2", children: showNavExtras ? /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(CkyPageviews, {}),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(CkyNavUpgrade, {})
-        ] }) : null })
-      ] }),
-      showGdprIndicator && dashboardIndicator.width > 0 && /* @__PURE__ */ jsxRuntimeExports.jsx(
-        "div",
+    return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { ref: navContainerRef, className: "cky:px-8 cky:bg-white cky:relative", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "cky:grid cky:w-full cky:min-w-0 cky:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] cky:items-center", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:min-w-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Tabs, { value: resolvedTab, onValueChange: handleNavigate, children: /* @__PURE__ */ jsxRuntimeExports.jsx(TabsList, { className: "cky:bg-transparent cky:h-auto cky:p-0 cky:inline-flex cky:max-w-full cky:flex-nowrap cky:overflow-x-auto", children: visibleMenus.map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+        TabsTrigger,
         {
-          className: "cky:absolute cky:bottom-0 cky:h-[5px] cky:bg-[var(--cky-primary)] cky:pointer-events-none",
-          style: { left: dashboardIndicator.left, width: dashboardIndicator.width }
-        }
-      )
-    ] });
+          value: item.to.name,
+          className: "cky:data-[state=active]:bg-transparent cky:data-[state=active]:shadow-none cky:py-3.5 cky:px-0 cky:mx-2.5 cky:first:ml-0 cky:transition-all cky:duration-200 cky:cursor-pointer cky:border-0 cky:bg-transparent cky:data-[state=active]:text-blue-600 cky:data-[state=active]:text-[15px]! cky:data-[state=active]:font-semibold! cky:text-gray-700 cky:hover:text-[var(--cky-primary-dark)] cky:shrink-0",
+          children: item.text
+        },
+        item.to.name
+      )) }) }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:flex cky:min-w-0 cky:flex-row cky:items-center cky:justify-end cky:gap-2", children: showNavExtras ? /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(CkyPageviews, {}),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(CkyNavUpgrade, {})
+      ] }) : null })
+    ] }) });
   }, "CkyNavMenu");
   const LINK_BTN_BASE = "cky:p-0 cky:h-auto cky:text-[13px]! cky:font-normal! cky:hover:border-transparent cky:hover:no-underline cky:hover:opacity-100";
   const LINK_BTN_INLINE = `cky:inline-flex cky:items-center ${LINK_BTN_BASE}`;
@@ -66895,7 +66845,7 @@ ${colorConfig.map(([key, itemConfig]) => {
           onClick: /* @__PURE__ */ __name(() => {
             window.location.assign(legacyURL);
           }, "onClick"),
-          children: __$1("Switch back to old UI", "cookie-law-info")
+          children: __$1("Go back to previous version", "cookie-law-info")
         }
       )
     ] }) }) });
@@ -66907,7 +66857,7 @@ ${colorConfig.map(([key, itemConfig]) => {
     "cky:py-3 cky:px-[50px]",
     "cky:max-[782px]:py-4 cky:max-[782px]:px-4"
   );
-  const CLOSE_BUTTON_CLASS$1 = cn$1(
+  const CLOSE_BUTTON_CLASS = cn$1(
     "cky-affiliate-close cky:absolute cky:top-1.5 cky:right-3 cky:z-20",
     "cky:!h-7 cky:!w-7 cky:p-0 cky:shrink-0",
     "cky:text-[20px]! cky:font-light cky:leading-none cky:tracking-normal",
@@ -66973,7 +66923,7 @@ ${colorConfig.map(([key, itemConfig]) => {
           size: "icon",
           "aria-label": __$1("Close", "cookie-law-info"),
           onClick: handleDismiss,
-          className: CLOSE_BUTTON_CLASS$1,
+          className: CLOSE_BUTTON_CLASS,
           children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { "aria-hidden": "true", children: "×" })
         }
       ),
@@ -67021,168 +66971,6 @@ ${colorConfig.map(([key, itemConfig]) => {
       )
     ] });
   }, "CkyAffiliateNotice");
-  const AGENCY_URL = "https://www.cookieyes.com/partners/agency/?ref=wpagency";
-  const DEADLINE_1 = /* @__PURE__ */ new Date("2026-05-31T23:59:59");
-  const GDPR_ANNIVERSARY_DEADLINE = /* @__PURE__ */ new Date("2026-06-14T23:59:59");
-  const DISMISS_KEY = "cky_gdpr_anniversary_dismissed";
-  const DISMISS_DURATION = 12 * 60 * 60 * 1e3;
-  const BANNER_BG_STYLE = {
-    background: "linear-gradient(271deg, #0F2942 -31.69%, #1E4DD8 105.53%)"
-  };
-  const GRADIENT_TEXT_STYLE = {
-    background: "linear-gradient(72deg, #E44B26 -64.63%, #F3CF4E 201.77%)",
-    WebkitBackgroundClip: "text",
-    WebkitTextFillColor: "transparent",
-    backgroundClip: "text",
-    color: "transparent"
-  };
-  const CTA_BUTTON_STYLE = {
-    boxShadow: "0px 8px 13px rgba(39, 40, 60, 0.2)"
-  };
-  const CLOSE_BUTTON_CLASS = cn$1(
-    "cky:absolute cky:top-[7px] cky:right-3 cky:z-20",
-    "cky:!h-[19px] cky:!w-[19px] cky:p-0 cky:shrink-0",
-    "cky:shadow-none! cky:border-0!",
-    "cky:hover:bg-transparent! cky:hover:opacity-70!"
-  );
-  function isDismissed() {
-    try {
-      if (!sessionStorage.getItem(DISMISS_KEY)) return false;
-      const val = localStorage.getItem(DISMISS_KEY);
-      if (!val) return false;
-      return Date.now() < Number(val);
-    } catch (e) {
-      return false;
-    }
-  }
-  __name(isDismissed, "isDismissed");
-  function storeDismiss() {
-    const expiry = String(Date.now() + DISMISS_DURATION);
-    try {
-      sessionStorage.setItem(DISMISS_KEY, "1");
-    } catch (e) {
-    }
-    try {
-      localStorage.setItem(DISMISS_KEY, expiry);
-    } catch (e) {
-    }
-  }
-  __name(storeDismiss, "storeDismiss");
-  const CkyGdprAnniversaryBanner = /* @__PURE__ */ __name(({ onDismiss, onHeightChange }) => {
-    const bannerRef = reactExports.useRef(null);
-    const [dismissed, setDismissed] = reactExports.useState(isDismissed);
-    const now = Date.now();
-    const isExpired = now >= GDPR_ANNIVERSARY_DEADLINE.getTime();
-    const activeDeadlineLabel = now < DEADLINE_1.getTime() ? "May 31" : "Jun 14";
-    reactExports.useLayoutEffect(() => {
-      if (dismissed || isExpired || !onHeightChange || !bannerRef.current) return;
-      const el = bannerRef.current;
-      onHeightChange(el.offsetHeight);
-      const observer = new ResizeObserver(() => onHeightChange(el.offsetHeight));
-      observer.observe(el);
-      return () => observer.disconnect();
-    }, [dismissed, isExpired, onHeightChange]);
-    const handleDismiss = reactExports.useCallback(() => {
-      storeDismiss();
-      setDismissed(true);
-      onDismiss == null ? void 0 : onDismiss();
-    }, [onDismiss]);
-    const handleJoinAgency = reactExports.useCallback(() => {
-      window.open(AGENCY_URL, "_blank", "noopener,noreferrer");
-    }, []);
-    if (isExpired || dismissed) return null;
-    return /* @__PURE__ */ jsxRuntimeExports.jsxs(
-      "div",
-      {
-        ref: bannerRef,
-        className: cn$1(
-          "cky-gdpr-anniversary-banner",
-          "cky:fixed cky:top-[calc(var(--wp-admin--admin-bar--height,32px)+108px)] cky:left-[var(--cky-nav-left)] cky:w-[var(--cky-nav-width)] cky:z-[9999] cky:overflow-hidden",
-          "cky:flex cky:items-center cky:justify-center",
-          "cky:h-[72px] cky:shrink-0",
-          "cky:max-[1100px]:h-auto cky:max-[1100px]:py-3"
-        ),
-        style: BANNER_BG_STYLE,
-        children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { "aria-hidden": "true", className: "cky:absolute cky:inset-0 cky:pointer-events-none cky:select-none", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:absolute cky:mix-blend-soft-light", style: { top: "-490.24%", right: "-130.83%", bottom: "-682.93%", left: "158.33%" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.gdprAnniversaryBgOverlay, alt: "", className: "cky:block cky:size-full cky:max-w-none" }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:absolute cky:opacity-20 cky:-rotate-180 cky:-scale-x-100", style: { top: "45.83%", right: "95.96%", bottom: "36.34%", left: "3.26%" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.gdprAnniversarySparkLg, alt: "", className: "cky:block cky:size-full cky:max-w-none" }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:absolute cky:opacity-20 cky:-rotate-180 cky:-scale-x-100", style: { top: "52.16%", right: "96.18%", bottom: "43.53%", left: "3.48%" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.gdprAnniversarySparkSm, alt: "", className: "cky:block cky:size-full cky:max-w-none" }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:absolute cky:opacity-20 cky:-rotate-180 cky:-scale-x-100", style: { top: "23.61%", right: "8.11%", bottom: "58.56%", left: "91.11%" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.gdprAnniversarySparkLg, alt: "", className: "cky:block cky:size-full cky:max-w-none" }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:absolute cky:opacity-20 cky:-rotate-180 cky:-scale-x-100", style: { top: "29.94%", right: "8.33%", bottom: "65.76%", left: "91.33%" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.gdprAnniversarySparkSm, alt: "", className: "cky:block cky:size-full cky:max-w-none" }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:absolute cky:opacity-20 cky:-rotate-180 cky:-scale-x-100", style: { top: "8.33%", right: "0.4%", bottom: "73.84%", left: "98.82%" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.gdprAnniversarySparkLg, alt: "", className: "cky:block cky:size-full cky:max-w-none" }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:absolute cky:opacity-20 cky:-rotate-180 cky:-scale-x-100", style: { top: "14.66%", right: "0.62%", bottom: "81.03%", left: "99.04%" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.gdprAnniversarySparkSm, alt: "", className: "cky:block cky:size-full cky:max-w-none" }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:absolute", style: { top: "11.11%", right: "11.28%", bottom: "71.67%", left: "87.99%" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.gdprAnniversaryDotE, alt: "", className: "cky:block cky:size-full cky:max-w-none" }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:absolute", style: { top: "26.39%", right: "3.92%", bottom: "52.95%", left: "95.28%" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.gdprAnniversaryDotB, alt: "", className: "cky:block cky:size-full cky:max-w-none" }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:absolute", style: { top: "58.33%", right: "6.25%", bottom: "29.98%", left: "92.99%" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.gdprAnniversaryDotA, alt: "", className: "cky:block cky:size-full cky:max-w-none" }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:absolute", style: { top: "59.72%", right: "1.35%", bottom: "23.06%", left: "97.92%" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.gdprAnniversaryDotD, alt: "", className: "cky:block cky:size-full cky:max-w-none" }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:absolute", style: { top: "63.89%", right: "11%", bottom: "15.45%", left: "88.19%" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.gdprAnniversaryDotC, alt: "", className: "cky:block cky:size-full cky:max-w-none" }) })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: cn$1(
-            "cky:relative cky:z-10",
-            "cky:flex cky:items-center cky:gap-8",
-            "cky:max-[1200px]:gap-5",
-            "cky:max-[960px]:gap-4",
-            "cky:max-[782px]:flex-wrap cky:max-[782px]:gap-3 cky:max-[782px]:pl-4 cky:max-[782px]:pr-10"
-          ), children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "img",
-              {
-                src: assets.gdprAnniversaryLogo,
-                alt: __$1("GDPR 8th anniversary", "cookie-law-info"),
-                className: "cky:h-[50px] cky:w-[114px] cky:shrink-0 cky:object-contain cky:max-[960px]:h-10 cky:max-[960px]:w-auto cky:max-[600px]:hidden"
-              }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "cky:flex cky:flex-col cky:gap-px cky:shrink cky:min-w-0", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "cky:m-0! cky:text-lg! cky:font-bold cky:text-white cky:leading-[27px] cky:whitespace-nowrap cky:max-[1200px]:whitespace-normal cky:max-[960px]:text-base! cky:max-[782px]:text-sm!", children: __$1("Are you an agency managing multiple sites? Don't pay full price.", "cookie-law-info") }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "cky:m-0! cky:text-sm! cky:font-normal cky:text-white cky:leading-5 cky:max-[782px]:text-xs!", children: [
-                __$1("Join the CookieYes Agency Program and", "cookie-law-info"),
-                " ",
-                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "cky:font-bold", style: GRADIENT_TEXT_STYLE, children: t$1("Get 30% + $150 off extra!") })
-              ] })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "cky:flex cky:items-center cky:gap-8 cky:shrink-0 cky:max-[960px]:gap-4 cky:max-[782px]:gap-3", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                Button,
-                {
-                  variant: "yellow",
-                  onClick: handleJoinAgency,
-                  className: "cky:text-base! cky:font-semibold! cky:leading-6! cky:px-6! cky:py-[7px]! cky:gap-2 cky:max-[960px]:text-sm! cky:max-[960px]:px-4! cky:max-[960px]:py-1.5!",
-                  style: CTA_BUTTON_STYLE,
-                  children: [
-                    t$1("Join agency program"),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.external, alt: "", "aria-hidden": "true", className: "cky:size-4 cky:shrink-0 cky:brightness-0" })
-                  ]
-                }
-              ),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "cky:flex cky:items-center cky:gap-[5px] cky:shrink-0", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "cky:relative cky:flex cky:size-[10px]", children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "cky:animate-ping cky:absolute cky:inline-flex cky:size-full cky:rounded-full cky:bg-red-500 cky:opacity-75" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "cky:relative cky:inline-flex cky:rounded-full cky:size-[10px] cky:bg-red-500" })
-                ] }),
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "cky:text-white cky:text-xs cky:font-normal cky:leading-5 cky:whitespace-nowrap", children: [
-                  __$1("Deadline:", "cookie-law-info"),
-                  " ",
-                  activeDeadlineLabel
-                ] })
-              ] })
-            ] })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            Button,
-            {
-              variant: "ghost",
-              size: "icon",
-              "aria-label": __$1("Dismiss banner", "cookie-law-info"),
-              onClick: handleDismiss,
-              className: CLOSE_BUTTON_CLASS,
-              children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: assets.gdprAnniversaryClose, alt: "", "aria-hidden": "true", className: "cky:size-full cky:brightness-0 cky:invert" })
-            }
-          )
-        ]
-      }
-    );
-  }, "CkyGdprAnniversaryBanner");
   const CkyTableMissingNotice = /* @__PURE__ */ __name(() => {
     const info = useAppStore((s2) => s2.info);
     const [loading, setLoading] = reactExports.useState(false);
@@ -77515,7 +77303,7 @@ ${colorConfig.map(([key, itemConfig]) => {
       }
     );
   }, "TabContentAccordion");
-  function App({ hideNav = false, showGdprIndicator = false }) {
+  function App({ hideNav = false }) {
     reactExports.useEffect(() => {
       const { loadInfo, reInit } = useAppStore.getState();
       void (() => __async(null, null, function* () {
@@ -77528,7 +77316,7 @@ ${colorConfig.map(([key, itemConfig]) => {
     }, []);
     return /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "cky-app-nav-bar", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(CkyHeader, {}),
-      !hideNav ? /* @__PURE__ */ jsxRuntimeExports.jsx(CkyNavMenu, { showGdprIndicator }) : null
+      !hideNav ? /* @__PURE__ */ jsxRuntimeExports.jsx(CkyNavMenu, {}) : null
     ] }) });
   }
   __name(App, "App");
@@ -77541,12 +77329,6 @@ ${colorConfig.map(([key, itemConfig]) => {
     return Boolean((_b2 = (_a2 = matches.at(-1)) == null ? void 0 : _a2.staticData) == null ? void 0 : _b2.showAffiliateBanner);
   }
   __name(useAffiliateBannerRoute, "useAffiliateBannerRoute");
-  function useGdprAnniversaryBannerRoute() {
-    var _a2, _b2;
-    const matches = useMatches();
-    return Boolean((_b2 = (_a2 = matches.at(-1)) == null ? void 0 : _a2.staticData) == null ? void 0 : _b2.showGdprAnniversaryBanner);
-  }
-  __name(useGdprAnniversaryBannerRoute, "useGdprAnniversaryBannerRoute");
   function useHideNav() {
     var _a2, _b2;
     const matches = useMatches();
@@ -77563,17 +77345,6 @@ ${colorConfig.map(([key, itemConfig]) => {
     /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "cky:text-2xl cky:font-bold cky:mb-4", children: __$2("Page Not Found", "cookie-law-info") }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "cky:text-gray-600", children: __$2("The page you're looking for doesn't exist.", "cookie-law-info") })
   ] }) }), "NotFound");
-  const GDPR_DISMISS_KEY = "cky_gdpr_anniversary_dismissed";
-  function isGdprDismissed() {
-    try {
-      if (!sessionStorage.getItem(GDPR_DISMISS_KEY)) return false;
-      const val = localStorage.getItem(GDPR_DISMISS_KEY);
-      return !!val && Date.now() < Number(val);
-    } catch (e) {
-      return false;
-    }
-  }
-  __name(isGdprDismissed, "isGdprDismissed");
   function RootLayout() {
     const infoLoaded = useAppStore((s2) => s2.info_loaded);
     const connected = useAppStore((s2) => {
@@ -77582,23 +77353,11 @@ ${colorConfig.map(([key, itemConfig]) => {
     });
     const isAgencyPlan = useIsAgencyPlan();
     const affiliateBannerRoute = useAffiliateBannerRoute();
-    const gdprAnniversaryBannerRoute = useGdprAnniversaryBannerRoute();
     const hideNav = useHideNav();
-    const [gdprDismissed, setGdprDismissed] = reactExports.useState(isGdprDismissed);
-    const [bannerHeight, setBannerHeight] = reactExports.useState(0);
-    const gdprExpired = Date.now() >= GDPR_ANNIVERSARY_DEADLINE.getTime();
-    const handleGdprDismiss = reactExports.useCallback(() => setGdprDismissed(true), []);
-    const handleBannerHeightChange = reactExports.useCallback((h) => setBannerHeight(h), []);
-    const showGdprAnniversaryBanner = infoLoaded && !connected && !gdprExpired && gdprAnniversaryBannerRoute;
-    const showGdprIndicator = showGdprAnniversaryBanner && !gdprDismissed && !gdprExpired;
     const showAffiliateBanner = infoLoaded && connected && !isAgencyPlan && affiliateBannerRoute;
     return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(App, { hideNav, showGdprIndicator }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(App, { hideNav }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: hideNav ? APP_BODY_WITHOUT_NAV_CLASS : APP_BODY_CLASS, children: [
-        showGdprAnniversaryBanner ? /* @__PURE__ */ jsxRuntimeExports.jsx(CkyGdprAnniversaryBanner, { onDismiss: handleGdprDismiss, onHeightChange: handleBannerHeightChange }) : null,
-        showGdprIndicator && bannerHeight > 0 ? /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "cky:shrink-0", style: {
-          height: bannerHeight
-        } }) : null,
         showAffiliateBanner ? /* @__PURE__ */ jsxRuntimeExports.jsx(CkyAffiliateNotice, {}) : null,
         /* @__PURE__ */ jsxRuntimeExports.jsx(CkyTableMissingNotice, {}),
         /* @__PURE__ */ jsxRuntimeExports.jsx(CkyReviewNotice, {}),
@@ -77659,8 +77418,7 @@ ${colorConfig.map(([key, itemConfig]) => {
   const $$splitComponentImporter$2 = /* @__PURE__ */ __name(() => __vitePreload(() => Promise.resolve().then(() => dashboard_index), false ? __VITE_PRELOAD__ : void 0, _documentCurrentScript && _documentCurrentScript.tagName.toUpperCase() === "SCRIPT" && _documentCurrentScript.src || new URL("js/index.js", document.baseURI).href), "$$splitComponentImporter$2");
   const Route$2 = createFileRoute("/dashboard/")({
     staticData: {
-      showAffiliateBanner: true,
-      showGdprAnniversaryBanner: true
+      showAffiliateBanner: true
     },
     component: lazyRouteComponent($$splitComponentImporter$2, "component")
   });

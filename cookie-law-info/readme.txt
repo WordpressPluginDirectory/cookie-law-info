@@ -5,7 +5,7 @@ Tags: cookie consent, cookie banner, cookie notice, gdpr, ccpa
 Requires at least: 5.0.0
 Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 3.5.1
+Stable tag: 3.5.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -49,6 +49,8 @@ The plugin offers a customizable cookie banner that blocks non-essential scripts
 
 - **Automatic Scanning:** One-click scan to detect and categorize cookies on your site.
 
+- **AI cookie classification:** Use AI to automatically classify uncategorised cookies found during website scans. Instead of researching each unknown cookie manually, the plugin assigns the right category so your cookie records, banner, and Cookie Policy stay accurate with minimal effort.
+
 - **Manual Cookie Management:** Add, edit, or delete cookies and define categories/descriptions with the WordPress cookie manager.
 
 **Multilingual & Accessibility**
@@ -61,7 +63,7 @@ The plugin offers a customizable cookie banner that blocks non-essential scripts
 
 **Legal Policy Tools**
 
-- **Policy Generators:** Create WordPress Cookie Policy and Privacy Policy pages tailored to your data practices.
+- **Policy Generators:** Create multilingual and auto-updating WordPress Cookie Policy and Privacy Policy pages tailored to your data practices.
 
 **Web App Integration**
 
@@ -259,6 +261,10 @@ Every time we update the plugin, you will see a notification on the installed pl
 
 == Changelog ==
 
+= 3.5.2 =
+
+[Fix] - Mixed content warning on standalone banner after migrating site to HTTPS.
+
 = 3.5.1 =
 
 [Add] - Agency Program banner for standalone WordPress plugin users with GDPR Anniversary offer.
@@ -286,7 +292,6 @@ For the changelog of earlier versions, please refer to the [changelog.txt](https
 
 == Upgrade Notice ==
 
-= 3.5.1 =
+= 3.5.2 =
 
-[Add] - Agency Program banner for standalone WordPress plugin users with GDPR Anniversary offer.
-[Fix] - Alignment issue with the 'Connect to CookieYes web app' button on the plugins page.
+[Fix] - Mixed content warning on standalone banner after migrating site to HTTPS.

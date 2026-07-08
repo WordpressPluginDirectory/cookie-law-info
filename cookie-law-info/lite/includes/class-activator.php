@@ -61,6 +61,9 @@ class Activator {
 		'3.5.0' => array(
 			'update_db_350',
 		),
+		'3.5.2' => array(
+			'update_db_352',
+		),
 	);
 	/**
 	 * Return the current instance of the class
@@ -82,6 +85,24 @@ class Activator {
 	 */
 	public static function init() {
 		add_action( 'init', array( __CLASS__, 'check_version' ), 5 );
+		add_action( 'update_option_siteurl', array( __CLASS__, 'maybe_clear_template_on_scheme_change' ), 10, 2 );
+	}
+
+	/**
+	 * Clear the cached banner template when the site URL scheme changes
+	 * (e.g. HTTP → HTTPS migration) so the next frontend request regenerates
+	 * it with the corrected asset URLs.
+	 *
+	 * @since 3.5.2
+	 * @param string $old_value Previous siteurl value.
+	 * @param string $new_value New siteurl value.
+	 * @return void
+	 */
+	public static function maybe_clear_template_on_scheme_change( $old_value, $new_value ) {
+		if ( wp_parse_url( $old_value, PHP_URL_SCHEME ) !== wp_parse_url( $new_value, PHP_URL_SCHEME ) ) {
+			delete_option( 'cky_banner_template' );
+			Cache::delete( 'banner_template' );
+		}
 	}
 	/**
 	 * Check the plugin version and run the updater is required.
@@ -318,6 +339,18 @@ class Activator {
 		delete_option( 'cky_banner_template' );
 		Cache::delete( 'banner_template' );
 		$controller->delete_cache();
+	}
+
+	/**
+	 * Clear cached banner template HTML so it is regenerated with the corrected
+	 * asset URL scheme (fixes mixed-content errors on HTTPS sites behind reverse proxies).
+	 *
+	 * @since 3.5.2
+	 * @return void
+	 */
+	public static function update_db_352() {
+		delete_option( 'cky_banner_template' );
+		Cache::delete( 'banner_template' );
 	}
 
 	/**
