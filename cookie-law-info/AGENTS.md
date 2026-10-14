@@ -10,7 +10,7 @@ plugin itself, see `DEVELOPMENT.md` (not shipped in the release package).
 |---|---|
 | **Plugin slug** | `cookie-law-info` |
 | **Text domain** | `cookie-law-info` |
-| **Version** | 3.5.6 |
+| **Version** | 3.5.7 |
 | **Requires** | WordPress 5.0+, PHP 5.6+ (tested to WordPress 7.1) |
 | **Admin menu** | `admin.php?page=cookie-law-info` (capability `manage_options`) |
 | **REST namespace** | `cky/v1` |

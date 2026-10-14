@@ -65814,9 +65814,9 @@ ${colorConfig.map(([key, itemConfig]) => {
           if (banners.laws === "ccpa") {
             return "US State Laws";
           } else if (laws.includes("ccpa") && laws.includes("gdpr")) {
-            return banners.is_iab_enabled ? "GDPR (IAB TCF v2.3) & US State Laws" : "GDPR & US State Laws";
+            return banners.is_iab_enabled ? "GDPR (IAB TCF v2.4) & US State Laws" : "GDPR & US State Laws";
           }
-          return banners.is_iab_enabled ? "GDPR (IAB TCF v2.3)" : "GDPR";
+          return banners.is_iab_enabled ? "GDPR (IAB TCF v2.4)" : "GDPR";
         }
         return "GDPR";
       }
@@ -82695,7 +82695,7 @@ ${colorConfig.map(([key, itemConfig]) => {
     "cookie-law-info"
   );
   const IAB_TCF_LABEL = __(
-    "Support IAB TCF v2.3",
+    "Support IAB TCF v2.4",
     "cookie-law-info"
   );
   const IAB_TCF_TOOLTIP = __(
